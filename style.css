@@ -1,0 +1,153 @@
+/*===============General Styles=================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+  max-width: 100vw;
+  font-family: Outfit, Arial, sans-serif;
+  color: #e2edf1;
+  background-color: #262838;
+  font-weight: bold;
+}
+
+/*===============Links=================*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*===============Font=================*/
+.blue-text {
+  color: #2088e0;
+}
+
+/*===============Buttons=================*/
+.btn, form .btn {
+  display: inline-block;
+  padding: 1rem 5rem;
+  color: #e2edf1;
+  font-size: inherit;
+  margin-top: 1rem;
+  border-radius: 1.57rem;
+  -webkit-border-radius: 1.57rem;
+  -moz-border-radius: 1.57rem;
+  -ms-border-radius: 1.57rem;
+  -o-border-radius: 1.57rem;
+}
+
+.btn-transparent {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #e2edf1;
+}
+
+.btn-blue {
+  background-color: #1888e8;
+}
+
+/*===============Navigation=================*/
+header {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-around;
+}
+
+header nav {
+  width: 60%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header input[type="search"] {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #e2edf1;
+  padding: 0.7rem;
+  border-radius: 1.57rem;
+  -webkit-border-radius: 1.57rem;
+  -moz-border-radius: 1.57rem;
+  -ms-border-radius: 1.57rem;
+  -o-border-radius: 1.57rem;
+}
+
+/*===============Main Styles=================*/
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+main > * {
+  width: 50%;
+}
+
+main section p {
+  line-height: 2.7rem;
+}
+
+main section p:nth-of-type(1) {
+  text-transform: uppercase;
+}
+
+main section p:nth-of-type(2) {
+  font-size: 2rem;
+}
+
+main section p:nth-of-type(3) {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+
+/*===============Form Styles=================*/
+form {
+  line-height: 2.7rem;
+}
+
+form input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font: inherit;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 1.57rem;
+  -webkit-border-radius: 1.57rem;
+  -moz-border-radius: 1.57rem;
+  -ms-border-radius: 1.57rem;
+  -o-border-radius: 1.57rem;
+}
+
+form input[placeholder="Username"], form input[type="password"], form input[type="email"] {
+  width: 100%;
+}
+
+form input[placeholder="First Name"], form input[placeholder="Last Name"] {
+  width: 48%;
+}
+
+form input:hover {
+  border: 3px solid #1888e8;
+}
+
+form .btn {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+form p {
+  text-align: right;
+}
