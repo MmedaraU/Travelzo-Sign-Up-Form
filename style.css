@@ -10,7 +10,6 @@ body {
   max-width: 100vw;
   font-family: Outfit, Arial, sans-serif;
   color: #e2edf1;
-  background-color: #262838;
   font-weight: bold;
 }
 
@@ -53,6 +52,7 @@ header {
   display: flex;
   padding: 2rem 0;
   justify-content: space-around;
+  background-color: #262830;
 }
 
 header nav {
@@ -89,6 +89,9 @@ main {
   display: flex;
   justify-content: space-around;
   padding: 3rem;
+  background-image: linear-gradient(to left, #262830 75%, transparent), url(images/bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 main > * {
