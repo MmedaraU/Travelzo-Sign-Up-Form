@@ -37,4 +37,4 @@ This is a solution to the first Task for the She Code Africa Code Blossom Challe
 It was nice finally getting to work on something especially while I'm still in school. I'm happy I didn't forget so much.
 
 ### Challenges Faced
-It was a bit challenging figuring out how to get the images into the form inputs and formatting the text in the form inputs.
+It was a bit challenging figuring out how to get the images into the form inputs, formatting the text in the form inputs and combining the background image and the gradient.
