@@ -6,7 +6,6 @@
     - [Built with](#built-with)
     - [My experience](#my-experience)
     - [Challenges Faced](#challenges-faced)
-    - [Useful resources](#useful-resources)
 
 
 # She Code Africa Code Blossom Challenge - Travelzo Sign Up Form (Task 1)
@@ -35,11 +34,7 @@ This is a solution to the first Task for the She Code Africa Code Blossom Challe
 - Sass/SCSS
 
 ### My experience
-
+It was nice finally getting to work on something especially while I'm still in school. I'm happy I didn't forget so much.
 
 ### Challenges Faced
-
-
-### Useful resources
-
-This time around, when I got stuck, I referred to the code on the QR code component challenge and my notes in the `cheatsheets` repository. I honestly don't think that's the best name for that repo 'cause they're not really `cheatsheets`, they're really just notes.
+It was a bit challenging figuring out how to get the images into the form inputs and formatting the text in the form inputs.
