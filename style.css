@@ -84,6 +84,10 @@ header input[type="search"] {
   -o-border-radius: 1.57rem;
 }
 
+header [type="search"]::placeholder {
+  color: #212121;
+}
+
 /*===============Main Styles=================*/
 main {
   display: flex;
@@ -125,6 +129,7 @@ form input {
   padding: 1rem;
   margin-bottom: 1rem;
   font: inherit;
+  color: #e2edf1;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 1.57rem;
   -webkit-border-radius: 1.57rem;
@@ -143,6 +148,14 @@ form input[placeholder="First Name"], form input[placeholder="Last Name"] {
 
 form input:hover {
   border: 3px solid #1888e8;
+}
+
+form input::placeholder {
+  color: #212121;
+}
+
+form input::placeholder:focus {
+  color: #2088e0;
 }
 
 form .btn {

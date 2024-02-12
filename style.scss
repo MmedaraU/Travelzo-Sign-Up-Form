@@ -1,0 +1,190 @@
+//Variables
+$bg-bluegray: #262830;
+$text-white: #e2edf1;
+$text-blue: #2088e0;
+$text-gray: #212121;
+$btn-blue: #1888e8;
+$border-white: #e2edf1;
+$border-blue: #1888e8;
+$border-radius-default: 1.57rem;
+
+/*===============General Styles=================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 100%;
+  max-width: 100vw;
+  font-family: Outfit, Arial, sans-serif;
+  color: $text-white;
+  // background-color: $bg-bluegray;
+  font-weight: bold;
+  // line-height: 2.7rem;
+}
+
+/*===============Links=================*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*===============Font=================*/
+.blue-text {
+  color: $text-blue;
+}
+
+/*===============Buttons=================*/
+.btn, form .btn {
+  display: inline-block;
+  padding: 1rem 5rem;
+  color: $text-white;
+  font-size: inherit;
+  margin-top: 1rem;
+  border-radius: 1.57rem;
+  -webkit-border-radius: 1.57rem;
+  -moz-border-radius: 1.57rem;
+  -ms-border-radius: 1.57rem;
+  -o-border-radius: 1.57rem;
+}
+
+.btn-transparent {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid $border-white;
+}
+
+.btn-blue {
+  background-color: $btn-blue;
+}
+
+/*===============Navigation=================*/
+header {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-around;
+  background-color: $bg-bluegray;
+
+  nav {
+    width: 60%;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        list-style-type: none;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  input[type="search"] {
+    background-color: rgba(256, 256, 256, 0.3);
+    color: $text-white;
+    padding: 0.7rem;
+    border-radius: 1.57rem;
+    -webkit-border-radius: 1.57rem;
+    -moz-border-radius: 1.57rem;
+    -ms-border-radius: 1.57rem;
+    -o-border-radius: 1.57rem;
+  }
+
+  [type="search"]::placeholder {
+    color: $text-gray;
+  }
+}
+
+/*===============Main Styles=================*/
+main {
+  // max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  background-image: linear-gradient(to left, $bg-bluegray 75%, transparent), url(images/bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  // background-image: linear-gradient(to left, rgba(38, 40, 56, 1), rgba(256, 256, 256, 0.2)), url('images/bg.jpg'), $bg-bluegray;
+  & > * {
+    width: 50%;
+  }
+
+  section {
+
+    // background-image: url(images/bg.jpg);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    p {
+      line-height: 2.7rem;
+    }
+
+    p:nth-of-type(1) {
+      text-transform: uppercase;
+    }
+
+    p:nth-of-type(2) {
+      font-size: 2rem;
+    }
+
+    p:nth-of-type(3) {
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+      font-weight: normal;
+    }
+  }
+}
+
+/*===============Form Styles=================*/
+form {
+  // text-align: left;
+  line-height: 2.7rem;
+
+  input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font: inherit;
+    color: $text-white;
+    background-color: rgba(256, 256, 256, 0.3);
+    border-radius: $border-radius-default;
+    -webkit-border-radius: $border-radius-default;
+    -moz-border-radius: $border-radius-default;
+    -ms-border-radius: $border-radius-default;
+    -o-border-radius: $border-radius-default;
+  }
+
+  input[placeholder="Username"], input[type="password"], input[type="email"] {
+    width: 100%;
+  }
+
+  input[placeholder="First Name"], input[placeholder="Last Name"] {
+    width: 48%;
+  }
+
+  input:hover {
+    border: 3px solid $border-blue;
+  }
+
+  input::placeholder {
+    color: $text-gray;
+  }
+
+  input::placeholder:focus {
+    color: $text-blue;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  p {
+    text-align: right;
+  }
+}
